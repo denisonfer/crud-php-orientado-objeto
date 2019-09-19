@@ -14,8 +14,8 @@
     $produto = new Produto(null, $nome, $descricao);
     $produtoDAO = new ProdutoDAO();
     $produtoDAO->create($produto);
-    header('location: ../../index.php');
+    header('location: ../../index.php?retorno=criar-sucesso');
   } catch (\Throwable $th) {
-    echo "Erro ao cadastrar produto";
+    header('location: ../../index.php?retorno=criar-falha');
   }
  }

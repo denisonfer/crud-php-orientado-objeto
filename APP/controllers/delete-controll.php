@@ -11,8 +11,8 @@
     try {
       $produtoDAO = new ProdutoDAO();
       $produtoDAO->delete($id);
-      header('location: ../../index.php');
+      header('location: ../../index.php?retorno=deletar-sucesso');
     } catch (\Throwable $th) {
-      echo "Erro ao deletar produto";
+      header('location: ../../index.php?retorno=deletar-falha');
     }
   }
