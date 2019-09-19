@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -30,29 +29,23 @@
       <nav class="cyan">
         <div class="nav-wrapper">
           <div class="container">
-            <a href="#" class="brand-logo">SISGen</a>
+            <a href="../index.php" class="brand-logo">SISGen</a>
             <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-              <li><a href="#">item1</a></li>
-              <li><a href="#">item2</a></li>
-              <li><a href="#">item3</a></li>
-              <li><a href="#">item4</a></li>
+              <li><a href="#">Sair</a></li>
             </ul>
             <ul class="side-nav" id="mobile-menu">
               <li>
                 <div class="userView">
                   <div class="background">
-                    <img src="http://lorempixel.com/output/abstract-q-c-640-480-10.jpg" alt="Background Sidenav">
+                    <img src="https://image.freepik.com/vetores-gratis/linhas-abstratas-formando-o-fundo-de-forma-tunner_1017-12765.jpg" alt="Background Sidenav">
                   </div>
-                  <a href="#!user"><img class="circle" src="http://lorempixel.com/output/people-q-c-640-480-9.jpg" alt="User Image Sidenav"></a>
-                  <a href="#!name"><span class="white-text name">John Doe</span></a>
-                  <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                  <a href="#!user"><img class="circle" src="https://image.freepik.com/vetores-gratis/perfil-de-avatar-de-homem-no-icone-redondo_24640-14044.jpg" alt="User Image Sidenav"></a>
+                  <a href="#!name"><span class="white-text name">Denison Ferreira</span></a>
+                  <a href="#!email"><span class="white-text email">denison.shenry@gmail.com</span></a>
                 </div>
               </li>
-              <li><a href="#">item1</a></li>
-              <li><a href="#">item2</a></li>
-              <li><a href="#">item3</a></li>
-              <li><a href="#">item4</a></li>
+              <li><a href="#">Sair</a></li>
             </ul>
           </div>
         </div>

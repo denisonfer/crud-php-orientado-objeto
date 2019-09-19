@@ -15,8 +15,8 @@
       $produto = new Produto($id, $nome, $descricao);
       $produtoDAO = new ProdutoDAO();
       $produtoDAO->update($produto);
-      header('location: ../../index.php');
+      header('location: ../../index.php?retorno=editar-sucesso');
     } catch (\Throwable $th) {
-      echo "Erro ao atualizar produto";
+      header('location: ../../index.php?retorno=editar-falha');
     }
   }

@@ -2,12 +2,11 @@
 //IMPORTAÇÕES
  require_once 'vendor/autoload.php';
  require_once 'includes/header.php';
+ require_once 'includes/mensagem.php';
 //NAMESPACES
  use App\Models\ProdutoDAO as ProdutoDAO;
- 
- $produtoDAO = new ProdutoDAO();
+  $produtoDAO = new ProdutoDAO();
 ?>
-
     <main>
       <div class="container">
         <div class="row">
