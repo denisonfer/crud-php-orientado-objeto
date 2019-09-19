@@ -1,0 +1,9 @@
+{
+  "name": "PHP OO CRUD",
+  "description": "Prática do PHPOO com CRUD",
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  }
+}
